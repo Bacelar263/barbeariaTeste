@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- =================== REMIXICONS =================== -->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css" rel="stylesheet">
+
+    <!-- =================== CSS =================== -->
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <!-- =================== SWIPER JS =================== -->
+    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200">
+
+    <!-- =================== TÍTULO =================== -->
+    <title>Barbearia</title>
+</head>
+<body>
+    <!-- =================== CABEÇALHO =================== -->
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="#" class="nav__logo">
+                Teste Barber Shop
+            </a>
+
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__lista">
+                    <li class="nav__item">
+                        <a href="#home" class="nav__link">Home</a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#sobre" class="nav__link">Sobre</a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#servicos" class="nav__link">Serviços</a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#agendamento" class="nav__link">Agendamento</a>
+                    </li>
+                    
+                    <li class="nav__item">
+                        <a href="#depoimentos" class="nav__link">Depoimentos</a>
+                    </li>
+                </ul>
+
+                <!-- Botão para fechar navbar -->
+                <div class="nav__fechar" id="nav-fechar">
+                    <i class="ri-close-line"></i>
+                </div>
+            </div>
+
+            <!-- Botão toggle -->
+            <div class="nav__toggle" id="nav-toggle">
+                <i class="ri-menu-line"></i>
+            </div>
+        </nav>
+    </header>
+
+    <!-- =================== HOME =================== -->
+    <section class="home" id="home">
+        <img src="assets/img/home_bg.avif" alt="Imagem da home" class="home__bg">
+        <div class="home__sombra"></div>
+
+        <div class="home__container container grid">
+            <div class="home__dados">
+                <h3 class="home__subtitulo">Sejam bem vindo a barbearia</h3>
+
+                <h1 class="home__titulo">Venha <br> Me Visitar</h1>
+
+                <p class="home__descricao">
+                    Visite nossa barbearia para ter uma experiência única e sair com um sorriso no rosto e uma confiança renovada.
+                </p>
+
+                <a href="#agendamento" class="botao">
+                    Agende sua visita <i class="ri-arrow-right-line"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- =================== SOBRE =================== -->
+    <section class="sobre section" id="sobre">
+        <div class="sobre__container container grid">
+            <div class="sobre__dados">
+                <h2 class="section__titulo">
+                    Saiba mais<br>
+                    Sobre mim
+                </h2>
+                <p class="sobre__descricao">
+                    Bem-vindo à barbearia do "Teste", onde a humildade de nossas origens impulsiona nosso crescimento constante. 
+                    Começamos modestamente, mas com foco, coragem e responsabilidade, conquistamos uma base fiel de clientes. 
+                    Nossa equipe dedicada de barbeiros oferece serviços excepcionais, utilizando técnicas modernas e produtos premium. 
+                    Valorizamos cada cliente e criamos um ambiente acolhedor. Continuaremos a crescer com humildade, mantendo nossa paixão e gratidão por aqueles que fazem parte da nossa história.
+
+                    Junte-se a nós nesta jornada emocionante! Experimente a diferença de uma barbearia que cresce com humildade e dedicação. 
+                    Estamos ansiosos para recebê-lo em nossa barbearia, onde cada corte de cabelo representa nossa busca pela excelência e nosso compromisso com o relacionamento com nossos clientes.
+                </p>
+            </div>
+
+            <div class="sobre__imagem">
+                <img src="assets/img/.jpeg" alt="Logo Teste Barber Shop" class="sobre__img">
+                <div class="sobre__sombra"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- =================== SERVIÇOS =================== -->
+    <section class="servicos section" id="servicos">
+        <h2 class="section__titulo">
+            Saiba Mais Sobre <br>
+            Os Nossos Serviços
+        </h2>
+
+        <div class="servicos__container container grid">
+            <article class="servicos__card">
+                <div class="servicos__imagem">
+                    <img src="assets/img/corteCabelo.png" alt="Imagem ilustrativa cortando cabelo" class="servicos__img">
+                    <div class="servicos__sombra"></div>
+                </div>
+
+                <h2 class="servicos__titulo">
+                    Cortes de cabelo
+                </h2>
+
+                <div class="servicos__valor">
+                    <i class="ri-wallet-3-line"></i>
+                    <span>R$30,00</span>
+                </div>
+            </article>
+            
+            <article class="servicos__card">
+                <div class="servicos__imagem">
+                    <img src="assets/img/corteBarba.png" alt="Imagem ilustrativa cortando barba" class="servicos__img">
+                    <div class="servicos__sombra"></div>
+                </div>
+
+                <h2 class="servicos__titulo">
+                    Cortes de barba
+                </h2>
+
+                <div class="servicos__valor">
+                    <i class="ri-wallet-3-line"></i>
+                    <span>R$15,00</span>
+                </div>
+            </article>
+            <article class="servicos__card">
+                <div class="servicos__imagem">
+                    <img src="assets/img/corteBarbaECabelo.png" alt="Imagem ilustrativa cortando cabelo e barba" class="servicos__img">
+                    <div class="servicos__sombra"></div>
+                </div>
+
+                <h2 class="servicos__titulo">
+                    Cortes de cabelo e barba
+                </h2>
+
+                <div class="servicos__valor">
+                    <i class="ri-wallet-3-line"></i>
+                    <span>R$40,00</span>
+                </div>
+            </article>
+        </div>
+    </section>
+
+    <!--  ======================== AGENDAMENTO ========================  -->
+    <section class="agendamento section" id="agendamento">
+        <h2 class="section__titulo">
+            Agende a <br>
+            sua visita
+        </h2>
+
+        <div class="agendamento__container container grid">
+            <form action="" class="agendamento__form agendamento-form">
+                <div class="agendamento__grupo">
+                    <input type="text" name="nome" required placeholder="Insira seu nome" class="agendamento__input">
+                    <input type="email" name="email" required placeholder="Insira seu email" class="agendamento__input">
+                    <input type="tel" name="telefone" required placeholder="Insira seu telefone" class="agendamento__input">
+
+                    <select name="opcao_servicos" required class="agendamento__input">
+                        <option value="nenhuma" selected>Escolha o tipo de serviço</option>
+                        <option value="cabelo">Cabelo</option>
+                        <option value="barba">Barba</option>
+                        <option value="cabelo_barba">Cabelo e Barba</option>
+                    </select>
+
+                    <div class="input-with-icon">
+                        <input type="text" name="dia" id="dia" required placeholder="Selecione o dia" class="agendamento__input" disabled="">
+                        <button class="icon-button calendario__botao" type="button"><i class="ri-calendar-line"></i></button>
+                    </div>
+                      
+                      
+
+                        <div class="wrapper calendario__modal">
+                            <header>
+                                <p class="current-date"></p>
+                                <div class="icons">
+                                <span id="prev" class="material-symbols-rounded">chevron_left</span>
+                                <span id="next" class="material-symbols-rounded">chevron_right</span>
+                                </div>
+                            </header>
+                            <div class="calendar">
+                                <ul class="weeks">
+                                <li>Dom</li>
+                                <li>Seg</li>
+                                <li>Ter</li>
+                                <li>Qua</li>
+                                <li>Qui</li>
+                                <li>Sex</li>
+                                <li>Sab</li>
+                                </ul>
+                                <ul class="days"></ul>
+                            </div>
+                            <div class="botoes__calendario">
+                                <a class="calendario__botao-fechar btn__calendario">Fechar</a>
+
+                                <a class="calendario__botao-fechar btn__calendario">Marcar</a>
+                            </div>
+                        </div>
+
+
+                    <select name="opcao_hora" required class="agendamento__input">
+                        <option value="nenhuma" selected>Escolha a hora do corte</option>
+                        <option value="08">08:00</option>
+                        <option value="09">09:00</option>
+                        <option value="10">10:00</option>
+                        <option value="14">14:00</option>
+                        <option value="16">16:00</option>
+                        <option value="17">17:00</option>
+                    </select>
+                </div>
+
+                <textarea name="observacao" required placeholder="Insira alguma observacao" class="agendamento__input"></textarea>
+
+                <p class="agendamento__mensagem id-mensagem"></p>
+
+                <button type="submit" class="botao agendamento__botao">
+                    Agendar
+                </button>
+            </form>
+        </div>
+    </section>
+
+    <!--  ======================== DEPOIMENTOS ========================  -->
+    <section class="depoimento section" id="depoimentos">
+        <h2 class="section__titulo">Depoimentos</h2>
+
+        <div class="depoimento__container container swiper">
+            <div class="swiper-wrapper"> 
+
+                <div class="depoimento__card swiper-slide">
+                    <img src="assets/img/" alt="Logo" class="depoimento__img">
+
+                    <h3 class="depoimento__nome">Guilherme Bacelar</h3>
+
+                    <p class="depoimento__descricao">Um trabalho incrível, o corte está pefeito e minha barba extremamente bem feita.</p>
+                </div>
+
+                <div class="depoimento__card swiper-slide">
+                    <img src="assets/img/" alt="Logo" class="depoimento__img">
+
+                    <h3 class="depoimento__nome">Igor Batista</h3>
+
+                    <p class="depoimento__descricao">Muito bom o corte, voltarei mais vezes com toda a certeza.</p>
+                </div>
+
+                <div class="depoimento__card swiper-slide">
+                    <img src="assets/img/" alt="Logo" class="depoimento__img">
+
+                    <h3 class="depoimento__nome">Caio Henri</h3>
+
+                    <p class="depoimento__descricao">Com o agendamento pelo site ficou ainda melhor, muito bom.</p>
+                </div>
+            </div>
+
+            <div class="swiper-pagination"></div>
+        </div>
+    </section>
+
+    <!--  ======================== FOOTER ========================  -->
+    <footer class="footer">
+        <div class="footer__bg">
+            <div class="footer__container container grid">
+
+                <div class="footer__localizacao">
+                    <h2>Localização</h1>
+                    <br><br>
+                    <!-- <iframe src="asd" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe> -->
+                </div>
+
+                <div>
+                    <h1 class="footer__titulo">"Teste" Barber Shop</h1>
+                </div>
+
+                <div class="footer__socials">
+                    <a href="https://www.instagram.com/" target="_blank" class="footer__social">
+                        <i class="ri-instagram-line"></i>
+                    </a>
+                    <a href="https://api.whatsapp.com/" target="_blank" class="footer__social">
+                        <i class="ri-whatsapp-line"></i>
+                    </a>
+                </div>
+            </div>
+
+            <p class="footer__copy">&#169; Bacelar. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+    <!-- =================== SCROLL UP =================== -->
+    <a href="#" class="scrollup" id="scroll-up">
+        <i class="ri-arrow-up-line"></i>
+    </a>
+
+    <!-- =================== SWIPER JS =================== -->
+    <script src="assets/js/swiper-bundle.min.js"></script>
+
+    <!--=============== SCROLL REVEAL ===============-->
+    <script src="assets/js/scrollreveal.min.js"></script>
+
+    <!-- =================== ARQUIVO JS =================== -->
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
